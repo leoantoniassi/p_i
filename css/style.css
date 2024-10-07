@@ -1,0 +1,56 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  text-align: center;
+  background-color: #615f5f;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 10px;
+  width: 50%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #615f5f;
+}
+.navList {
+  list-style: none;
+  display: flex;
+}
+.home {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: start;
+  padding-left: 40px;
+}
+.navList li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0, 7;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.itensNavbar:hover {
+  color: #ff0000;
+  opacity: 0, 7;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
